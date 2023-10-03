@@ -124,6 +124,13 @@ nav a {
 
 }
 
+.album{
+    width:10%;
+    height:10%;
+    display:incline-block;
+    float:right
+}
+
 .middle{
     text-align:center;
 
@@ -135,6 +142,38 @@ nav a {
      left:40px;
 }
 
+.sideflex{
+    float: right;
+    flex-direction: column;
+    display:flex;
+    background-color:aquamarine
+
+}
+
+.flexhead{
+    background-color:aliceblue;
+    margin: 10px;
+   padding: 10px;
+ 
+
+}
+
+.sideflex > div{
+    background-color: #f1f1f1;
+   margin: 10px;
+   padding: 10px;
+   font-size: 12px;
+
+}
+
+.logo{
+    color:#f1f1f1
+
+}
+.logo:hover{
+    color:#ccc;
+}
+
 form {
     width : 350px;
     height : 300px;
@@ -144,14 +183,13 @@ form {
     border-radius:12px;
     margin:100px auto;
 
-
 }
 
 
 /* Footer Section */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #88d7ea;
     color: rgb(124, 177, 31);
     padding: 10px 0;
 }
