@@ -41,7 +41,7 @@ nav a {
     font-size: 2.5em;
 }
 
-.cta-button {
+.button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
@@ -73,7 +73,7 @@ nav a {
     padding: 50px 0;
 }
 
-.price-card {
+.price {
     display: inline-block;
     margin: 20px;
     padding: 20px;
