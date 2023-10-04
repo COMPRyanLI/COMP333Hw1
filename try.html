@@ -13,10 +13,13 @@
      </div>
 </head>
 <body> 
+   
     
-
-    <nav>
+<!--only few structural lines are quoted from chatgpt in navigation bar and heading section-->
+<!--navigation bar-->
+<nav>
         <ul>
+            <li> <img src="logo.webp" srcset="logo.webp 40w, logo.webp 50w" sizes="1vw" width = "60" height = "40" alt="logo of app"></li>
             <li><a href="#">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#pricing">Pricing</a></li>
@@ -30,60 +33,112 @@
         <p>Best Music will give you fantanstic experience of discovering and exploring beautiful music</p>
         <a href="#features" class="button">Let's go!</a>
     </section>
-    <hr />
+    <hr color="#a01d88"/>
 
 
    <!-- Add some data about the website below-->
     <center>
         <section class="page_stats"><div class="stat">
-            <span class="count">1,663,740</span> Artists
+            <span class="count">1,663,740</span> <strong>Artists </strong>
         </div><div class="stat">
-            <span class="count">5,687,394</span> Releases
+            <span class="count">5,687,394</span> <strong> Releases </strong>
         </div><div class="stat">
-            <span class="count">123,348</span> Labels
+            <span class="count">123,348</span><strong>Labels</strong> 
         </div><div class="stat">
-            <span class="count">123,853,237,495</span> Ratings
+            <span class="count">123,853,237,495</span> <strong>Ratings</strong>
         </div><div class="stat">
-            <span class="count">8,438,353</span> Reviews
+            <span class="count">8,438,353</span> <strong>Reviews</strong>
         </div><div class="stat">
-            <span class="count">832,034</span> Lists of music
+            <span class="count">832,034</span> <strong>Lists of music</strong>
         </div></section>
     </center>
     
     
+      <!--Flexbox-->
+ 
+        <div class = "sideflex">
+          <div id = "flexhead"><h3>New releases</h3></div>
+            <div>"Javelin" by Sufjan Stevens ,2023
+                 <img class = "album" src="album1.webp" srcset="album1.webp 40w, album1.webp 50w" sizes="1vw" width = "120" height = "10"alt="Album picture">
+           </div>
+                <div>"Autumn variations" by Ed Sheeran, 2023
+                    <img class = "album" src="album2.webp" srcset="album2.webp 40w, album2.webp 50w" sizes="1vw" width = "120" height = "10"alt="Album picture">
+                </div>
+                <div>"Cousin" by Wilco, 2023
+                    <img class = "album" src="album3.webp" srcset="album3.webp 40w, album3.webp 50w" sizes="1vw" width = "120" height = "10" alt="Album picture">
+                </div>
+           </div>
+
+
+
    <!--feature part starts over here--> 
-    <hr />
+    <hr color="#a01d88"/>
+
 
     <section id="features" class="features">
-        <div class="feature">
-            <img src="feature1.webp" srcset="feature1.webp 40w, feature1.webp 50w" sizes="1vw" width = "1200" height = "100" alt="Rate Songs">
+  
+        <div class="feature1">
+            <img src="feature1.webp" srcset="feature1.webp 40w, feature1.webp 50w" sizes="1vw" width = "120" height = "100" alt="Rate Songs">
             <h2>Rate Songs</h2>
-            <p>Give your opinion on your favorite music.</p>
+            <h4>Give your opinion on your favorite music.</h4>
+            <br/>
+            <li>Runaway - Kanye West &nbsp;Rate:&nbsp;4.1/5</li>
+            <br/>
+            <li>Shape of you - Ed Sheeran&nbsp;Rate:&nbsp;4.7/5</li>
+            <br/>
+            <li>Uptown Funk - Bruno Mars&nbsp;Rate:&nbsp;4.9/5</li>
+            <br/>
+            <li>Goosebumps - Travis Scott&nbsp;Rate:&nbsp;4.6/5</li>
+
+    <!--The content cited in this part is from the website https://rateyourmusic.com/ -->
         </div>
-        <div class="feature">
-            <img src="feature2.webp" srcset="feature2.webp 40w, feature2.webp 50w" sizes="1vw" width = "1200" height = "100" alt="Songs Review">
+        <div class="feature2">
+            <img src="feature2.webp" srcset="feature2.webp 40w, feature2.webp 50w" sizes="1vw" width = "120" height = "100" alt="Songs Review">
             <h2>Review Songs</h2>
-            <p>Write detailed reviews and share your thoughts.</p>
+            <h4>Write detailed reviews and share your thoughts.</h4>
+            <p>Reviewd by <strong> Harry Yu</strong></p>
+            <cite>In many ways, softscars feels like a realisation of Yeule as both an artist and a persona - a coming into being that feels more assured and confident than their previous works, facing questions raised in 2022’s Glitch Princess with a more head-on and headstrong approach.
+            Musically, the ambient and desolate soundscapes of their previous albums Serotonin II.</cite>
         </div>
-        <div class="feature">
-            <img src="feature3.webp" srcset="feature3.webp 40w, feature3.webp 50w" sizes="1vw" width = "1200" height = "100" alt="Let's discuss">
+        <div class="feature3">
+            <img src="feature3.webp" srcset="feature3.webp 40w, feature3.webp 50w" sizes="1vw" width = "120" height = "100" alt="Let's discuss">
             <h2>Discuss Songs</h2>
-            <p>Engage in discussions with other music enthusiasts.</p>
+            <h4>Engage in discussions with other music enthusiasts.</h4>
+            <p>Q:&nbsp; Jackon: Which album is the best one of Taylor Swift?</p>
+            <!--The coontent below is quoted from the website https://www.nme.com/features/taylor-swift-best-albums-ranked-in-order-2712330-->
+            <p>A:&nbsp; James: "Reputation" must be her best album. It saw Swift push back at a narrative that saw her portrayed as vengeful and bitter, an image that had been thrust upon her by the media and exacerbated by her very public</p>
+            <p>A:&nbsp; Tommy: "1989"is a masterpiece. It won the Grammy for album of the year.</p>
         </div>
-        <div class="feature">
-            <img src="feature4.webp" srcset="feature4.webp 40w, feature4.webp 50w" sizes="1vw" width = "1200" height = "100" alt="Upcoming...">
+
+        <div class="feature4">
+            <img src="feature4.webp" srcset="feature4.webp 40w, feature4.webp 50w" sizes="1vw" width = "120" height = "100" alt="Upcoming...">
             <h2>Upcoming Features</h2>
-            <p>Exciting new features on the horizon!</p>
+            <h4>Exciting new features on the horizon!</h4>
+            <li>Recommended lists of songs(coming soon)</li>
+            <br/>
+            <li>Your favorite artist(coming soon)</li>
+            <br/>
+            <li>Live music videos</li>
+            <br/>
+            <li> Live Ratings</li>
+            <br/>
+            <p> ......</p>
         </div>
     </section>
 
+   
+
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <section id="pricing" class="pricing"> <!-- first id css-->
         <h2>Pricing Tiers</h2>
         <p>Here are all the options</p>
         <div class="option1">
             <h3>Free</h3>
             <p>Free access to rating of Songs </p>
+        </div>
+        <div class = "discount">
+            <h3>7-day premium trial</h3>
+            <p>First time premium with 20% discount </p>
         </div>
         <div class="option1">
             <h3>Premium</h3>
@@ -96,22 +151,8 @@
         </div>
     </section>
 
-    <!--Flexbox-->
-    <div class = "sideflex">
-        <div id = "flexhead"><h3>New releases</h3></div>
-        <div>"Javelin" by Sufjan Stevens ,2023
-            <img class = "album" src="album1.webp" srcset="album1.webp 40w, album1.webp 50w" sizes="1vw" width = "120" height = "10"alt="Album picture">
-        </div>
-        <div>"Autumn variations" by Ed Sheeran, 2023
-            <img class = "album" src="album2.webp" srcset="album2.webp 40w, album2.webp 50w" sizes="1vw" width = "120" height = "10"alt="Album picture">
-        </div>
-        <div>"Cousin" by Wilco, 2023
-            <img class = "album" src="album3.webp" srcset="album3.webp 40w, album3.webp 50w" sizes="1vw" width = "120" height = "10" alt="Album picture">
-        </div>
-    </div>
-
     <!-- FAQs Section -->
-    <section id="faq" class="faq">
+    <section id="faq" class="faq"> <!--second id css-->
         <h2>FAQs</h2>
         <ul>
             <li>
@@ -124,12 +165,13 @@
             </li>
         </ul>
     </section>
+    <hr color="#a01d88"/>
 
     <!-- Extra feedback Section -->
     <section class="feedbacks">
         <h2>What Our Users Say</h2>
         <div class="feedback">
-            <img src="user1.webp" srcset="user1.webp 40w, user1.webp 50w" sizes="1vw" width = "120" height = "10" alt="User 1">
+            <img src="user1.webp" srcset="user1.webp 40w, user1.webp 50w" sizes="1vw" width = "1200" height = "100" alt="User 1">
             <p>"This app is fantastic"</p>
             <cite>Ryan Li</cite>
         </div>
@@ -139,9 +181,12 @@
             <cite>Lance</cite>
         </div>
     </section>
+    <hr color="#a01d88"/>
+
 
     <!--Create an iframe to embed the author page--> 
-    <p>App contributor information </p>
+    <!--use part of the code from external java script of ionicon: https://ionic.io/ionicons/usage-->
+    <h2>App contributor information </h2>
     <iframe src="p3.html" title = "page3" name="navframe"></iframe> 
 
     <script defer type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

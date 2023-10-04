@@ -4,10 +4,14 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     margin: 0;
     padding: 0;
 }
 
+p{
+    font:italic normal 16px Times New Roman;
+}
 /* Navigation Bar */
 nav {
     background-color: #333;
@@ -17,12 +21,12 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 2em;
 }
 
 nav li {
     display: inline;
-    margin: 10px;
+    margin: 4em;
 }
 
 nav a {
@@ -34,9 +38,9 @@ nav a {
 .heading {
     text-align: center;
     padding: 100px 0;
-    background-color: #0f399a;
+    background-image: linear-gradient(62deg, #1c1183 0%, #a3146c 100%);
     border-style:solid;
-    border-color: gold;
+    border-color: rgb(239, 94, 4);
 }
 
 .heading h1 {
@@ -63,29 +67,69 @@ nav a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 50px 0;
+    padding: 50px 10%;
+    border:5px solid rgb(92, 20, 165);
+    position:relative;
+    background-image:linear-gradient(62deg, #1dcc46 0%, #35f1f4 100%);
 }
 
-.feature {
+.feature1 {
     text-align: center;
-    margin: 20px;
+    border: 5px solid rgb(236, 86, 6);
+    display: inline-block;
+    width:60em;
+    block-size: 30em;
 }
 
-.feature img {
-    max-width: 100px;
+.feature2 {
+    text-align: center;
+    border: 5px solid rgb(236, 86, 6);
+    display: inline-block;
+    width:60em;
+    block-size: 30em;
 }
 
-/* Pricing Section */
+.feature3 {
+    text-align: center;
+    border: 5px solid rgb(236, 86, 6);
+    display: inline-block;
+    width:60em;
+    block-size: 30em;
+}
+
+.feature4 {
+    text-align: center;
+    border: 5px solid rgb(236, 86, 6);
+    display: inline-block;
+    width:60em;
+    block-size: 30em;
+}
+/*feature image*/
+.features img {
+    width:40%;
+    height:30%
+}
+
+/* Pricing Section (id css)*/
 .pricing {
+    border: 5px solid rgb(71, 1, 80);
     text-align: center;
-    padding: 50px 0;
+    border-radius: 1em;
+    margin: 50px 0;
 }
 
+.discount{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 5px dashed #8c0909;
+    border-radius: 5px;
+}
 .option1 {
     display: inline-block;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 5px dashed #074807;
     border-radius: 5px;
 }
 
@@ -93,11 +137,11 @@ nav a {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #0bdb42;
+    border: 1px solid #8c0909;
     border-radius: 2.5px;
 }
 
-/* FAQs Section */
+/* FAQs Section(id css) */
 .faq {
     text-align: center;
     padding: 50px 0;
@@ -107,7 +151,7 @@ nav a {
     font-weight: bold;
 }
 
-/* Testimonials Section */
+/* Feedback Section */
 .feedbacks {
     text-align: center;
     padding: 50px 0;
@@ -123,14 +167,17 @@ nav a {
     border-radius: 50%;
 }
 
+/*stats of website*/
 .page_stats {
     text-align: center;
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    display: inline;
+    background: #e7dada;
+    height:30px;
     border-radius: 5px;
+}
 
+.count{
+    font:italic;
 }
 
 .album{
@@ -151,11 +198,15 @@ nav a {
      left:40px;
 }
 
+/*flexbox*/
 .sideflex{
-    float: right;
-    flex-direction: column;
     display:flex;
-    background-color:aquamarine
+    position:relative;
+    top:60em;;
+    float: right;
+    flex-direction:column;
+    background-color:aquamarine;
+    border:2px solid rgb(92, 20, 165); ;
 
 }
 
@@ -175,6 +226,13 @@ nav a {
 
 }
 
+/*make the webpage responsive */
+/*use code from https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
+@media (max-width: 800px) {
+    .sideflex {
+      flex-direction: row;
+    }
+  }
 
 
 form {
@@ -250,6 +308,8 @@ footer {
 }
 
 
+/*Make body webpage responsive to different devices*/
+/*use part of the codes from https://www.w3schools.com/css/css_rwd_intro.asp */
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
