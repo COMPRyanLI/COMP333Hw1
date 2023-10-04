@@ -175,13 +175,7 @@ nav a {
 
 }
 
-.logo{
-    color:#f1f1f1
 
-}
-.logo:hover{
-    color:#ccc;
-}
 
 form {
     width : 30%;
@@ -198,11 +192,11 @@ form {
 /* Footer Section */
 footer {
     text-align: center;
-    background-color: #88d7ea;
-    color: rgb(253, 161, 33);
+    background-color: #ed761a;
+    color: rgb(33, 253, 249);
     padding: 10px 0;
     border-style:solid;
-    border-color:gold
+    border-color:rgb(42, 16, 22)
 }
 
 /*this is for signup page */
