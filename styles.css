@@ -193,3 +193,53 @@ footer {
     color: rgb(124, 177, 31);
     padding: 10px 0;
 }
+
+/*this is for signup page */
+.box {
+    background-color: antiquewhite;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 1em;
+}
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(207, 219, 116, 0.7);
+    transition: all 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+.content {
+    position: absolute;
+    text-align: center;
+    background: rgb(154, 248, 96);
+    width: 5%;
+    padding: 8% 8%;
+    border-radius: 1em;
+}
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 1em;
+}
