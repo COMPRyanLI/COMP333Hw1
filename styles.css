@@ -243,6 +243,8 @@ footer {
     text-decoration: none;
     font-size: 1em;
 }
+
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
