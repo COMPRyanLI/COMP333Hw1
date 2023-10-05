@@ -3,7 +3,7 @@ Music rating landing page
 <<<<<<< HEAD
 Names of two teammates: Lance Gartrell and Ryan Li
 Purpose of the code: providing music rating web page for users to rate, review discuss, and search songs.
-The program have 4 html files: main page(try.html), login page(login.html). sign up page(signup.html), author page(p3.html)
+The program have 4 html files: main page(index.html), login page(login.html). sign up page(signup.html), author page(p3.html)
 The program have 2 css files(styles.css,p3styles.css)
 These 6 files are all contained in the main branch of the repo.
 How to run the code: locally on browser
